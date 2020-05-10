@@ -1,0 +1,15 @@
+up to the end of Section 3
+========================
+So …
+Basically the clean up is
+strip back all Node modules
+sudo npm list --depth 0
+npm uninstall `ls -1 node_modules | tr '/\n' ' '`
+Run npm install node-gyp
+Delete rm package-lock.json file for working folder and ~
+Deleting ~/.node-gyp folder and
+run npm install again again.
+ still getting some warns, but no Fails now.
+
+Another option is to use a virtual environment like 'nodeenv' to provide a clean wrapper
+

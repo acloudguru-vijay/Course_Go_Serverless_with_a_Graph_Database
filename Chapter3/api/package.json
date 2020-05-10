@@ -1,6 +1,6 @@
 {
   "name": "neptune-serverless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "query neptune in vpc",
   "main": "handler.js",
   "scripts": {
@@ -9,9 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bufferutil": "^4.0.1",
-    "gremlin": "^3.4.1",
-    "utf-8-validate": "^5.0.2"
+    "node-gyp": "^6.1.0"
   },
   "devDependencies": {
     "serverless-plugin-vpc-eni-cleanup": "^1.0.0",
