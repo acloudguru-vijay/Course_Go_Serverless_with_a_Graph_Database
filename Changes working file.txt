@@ -17,11 +17,13 @@ and anything else you need.
 Another option is to use a virtual environment like 'nodeenv' to provide a clean wrapper or
 maybe NVM (The Node Version Manager)
 ==========
-Too many conflcts with Node 12.
+Too many conflicts with Node 12.
 Rolling back to Node 10
  cleaned out as per above plus https://stackabuse.com/how-to-uninstall-node-js-from-mac-osx/
 Lading 10.18.0
 ==========
+(putting it back)
+- sudo npm install -g serverless
 
 
 
