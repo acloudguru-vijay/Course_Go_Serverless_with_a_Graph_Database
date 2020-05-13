@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "gremlin": "^3.4.6",
     "node-gyp": "^6.1.0"
   },
   "devDependencies": {
